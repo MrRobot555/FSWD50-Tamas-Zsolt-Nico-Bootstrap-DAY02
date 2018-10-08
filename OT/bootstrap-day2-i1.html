@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>      
+    <p class="text-muted">Some text that represents "Me"... (class muted)</p>  
+    <abbr title="This is a subtext of abbrevation">This is an example for abbrevation</abbr>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="text-danger">Some of my Work (danger class)</h3><br>
+    <div class="row">
+      
+      <table class="table"> 
+        <h2 class="text-center text-danger">Intermediate 1</h2>  
+        <thead>    
+          <tr>      
+            <th scope="col" class="text-center">Week 1</th>     
+            <th scope="col" class="text-center">Week 2</th>   
+            <th scope="col" class="text-center">Week 3</th>
+            <th scope="col" class="text-center">Week 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr> 
+            <td><a href="#HTML5">HTML 5</a></td>     
+            <td><a href="#HTML5">HTML 5</a></td>  
+            <td><a href="#CSS3">CSS 3</a></td>
+            <td><a href="#CSS3">CSS 3</a></td>
+          </tr>  
+          <tr> 
+            <td>CSS3</td>     
+            <td><a href="#algo">Algorithms and Data Structures</a></td>  
+            <td><a href="#JavaScript">JavaScript</a></td>
+            <td>CodeReview 1</td>
+          </tr>  
+          <tr> 
+            <td><a href="#JavaScript">JavaScript</a></td>     
+            <td><a href="#JavaScript">JavaScript</a></td>  
+            <td><a href="#JavaScript">JavaScript</a></td>
+            <td><a href="#JavaScript">JavaScript</a></td>
+          </tr>
+          <tr>
+            <td><a href="#core">Core Technologies Project</a></td>     
+            <td><a href="#core">Core Technologies Project</a></td>  
+            <td><a href="#core">Core Technologies Project</a></td>
+            <td><a href="#core">Core Technologies Project</a></td>
+          </tr>
+        </tbody> 
+      </table>
+
+
+
+    </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div ID="HTML5" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <h2 class="text-center">HTML5</h2>
+       <p>HTML 5 (formerly spelled HTML5[a]) is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard, and subsumes XHTML. It currently exists in two standardized forms: HTML 5.2 Recommendation[4] by the World Wide Web Consortium (W3C, a broad coalition of organizations), intended primarily for Web content developers; and HTML Living Standard[5] by WHATWG (a small consortium of four browser vendors), intended primarily for browser developers, though it also exists in an abridged Web developer version.[6] There are minor conflicts between the two groups' specifications.
+
+        HTML 5 was first released in public-facing form on 22 January 2008,[7] with a major update and "W3C Recommendation" status in October 2014.[2][8] Its goals are to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as Web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software. HTML 5 is intended to subsume not only HTML 4, but also XHTML 1 and DOM Level 2 HTML;[9] the HTML 4 and XHTML specs were announced as superseded by HTML 5.2 on 27 March 2018.[10]</p>
+    </div>
+  </div>
+
+    <div class="row">
+    <div ID="CSS3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <h2 class="text-center">CSS 3</h2>
+       <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+
+      Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+
+      The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+
+      The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]</p>
+    </div>
+  </div>
+
+    <div class="row">
+    <div ID="algo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <h2 class="text-center">Algorithms and Data Structures</h2>
+       <p>In mathematics and computer science, an algorithm (/ˈælɡərɪðəm/ (About this sound listen)) is an unambiguous specification of how to solve a class of problems. Algorithms can perform calculation, data processing and automated reasoning tasks.
+
+      As an effective method, an algorithm can be expressed within a finite amount of space and time[1] and in a well-defined formal language[2] for calculating a function.[3] Starting from an initial state and initial input (perhaps empty),[4] the instructions describe a computation that, when executed, proceeds through a finite[5] number of well-defined successive states, eventually producing "output"[6] and terminating at a final ending state. The transition from one state to the next is not necessarily deterministic; some algorithms, known as randomized algorithms, incorporate random input.[7]
+
+      The concept of algorithm has existed for centuries and the use of the concept can be ascribed to Greek mathematicians, e.g. the sieve of Eratosthenes and Euclid's algorithm;[8] the term algorithm itself derives from the 9th Century mathematician Muḥammad ibn Mūsā al'Khwārizmī, Latinized 'Algoritmi'. A partial formalization of what would become the modern notion of algorithm began with attempts to solve the Entscheidungsproblem (the "decision problem") posed by David Hilbert in 1928. Subsequent formalizations were framed as attempts to define "effective calculability"[9] or "effective method";[10] those formalizations included the Gödel–Herbrand–Kleene recursive functions of 1930, 1934 and 1935, Alonzo Church's lambda calculus of 1936, Emil Post's Formulation 1 of 1936, and Alan Turing's Turing machines of 1936–7 and 1939.</p>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div ID="JavaScript" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <h2 class="text-center">JavaScript</h2>
+       <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[7] often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+
+      Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.[8] JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it,[9] and all major web browsers have a dedicated JavaScript engine to execute it.
+
+      As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.
+
+      Initially only implemented client-side in web browsers, JavaScript engines are now embedded in many other types of host software, including server-side in web servers and databases, and in non-web programs such as word processors and PDF software, and in runtime environments that make JavaScript available for writing mobile and desktop applications, including desktop widgets.
+
+      Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.[10]</p>
+    </div>
+  </div>
+
+    <div class="row">
+    <div ID="core" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <h2 class="text-center">Core Tehcnologies Project</h2>
+       <p>The World Wide Web (WWW), also called the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.[1] English scientist Tim Berners-Lee and Belgian informatics engineer Robert Cailliau invented the World Wide Web in 1989. They wrote the first web browser in 1990 while employed at CERN in Switzerland.[2][3] The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
+
+      The World Wide Web has been central to the development of the Information Age and is the primary tool billions of people use to interact on the Internet.[4][5][6] Web pages are primarily text documents formatted and annotated with Hypertext Markup Language (HTML).[7] In addition to formatted text, web pages may contain images, video, audio, and software components that are rendered in the user's web browser as coherent pages of multimedia content.
+
+      Embedded hyperlinks permit users to navigate between web pages. Multiple web pages with a common theme, a common domain name, or both, make up a website. Website content can largely be provided by the publisher, or interactively where users contribute content or the content depends upon the users or their actions. Websites may be mostly informative, primarily for entertainment, or largely for commercial, governmental, or non-governmental organisational purposes.</p>
+    </div>
+  </div>
+
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
